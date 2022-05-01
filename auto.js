@@ -83,14 +83,14 @@ console.log(" ")
 console.log("\u001B[36m[1] Set adminLevel")
 console.log("\u001B[36m[2] Set Level")
 console.log(" ")
-var password = prompt(`\u001B[36m[>] Select Menu : `);
-if (password == "1"){
+var listmenu = prompt(`\u001B[36m[>] Select Menu : `);
+if (listmenu == "1"){
   console.log("\u001B[36mPlease wait...")
   sleep(500)
   console.clear()
   adminLevel()
 }
-if (password == "2"){
+if (listmenu == "2"){
   console.log("\u001B[36mPlease wait...")
   sleep(500)
   console.clear()
